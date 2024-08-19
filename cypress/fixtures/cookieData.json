@@ -1,0 +1,116 @@
+{
+  "CookieSPAEnabled": false,
+  "CookieSameSiteNoneEnabled": false,
+  "CookieV2CSPEnabled": false,
+  "MultiVariantTestingEnabled": false,
+  "UseV2": true,
+  "MobileSDK": false,
+  "SkipGeolocation": false,
+  "ScriptType": "PRODUCTION",
+  "Version": "202405.2.0",
+  "OptanonDataJSON": "190f1f12-c638-49cb-96e5-5b940358f7e2",
+  "GeolocationUrl": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+  "BulkDomainCheckUrl": "https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck",
+  "RuleSet": [
+    {
+      "Id": "0d368ff1-61bf-46a1-8f6c-ffcfba9a6cf0",
+      "Name": "Global",
+      "Countries": [
+        "pr", "ps", "pw", "py", "qa", "ad", "ae", "af", "ag", "ai", "al", "am", "ao", "aq", "ar", "as", "au", "aw", "az", "ba", "bb", "rs", "bd", "ru", "bf", "rw", "bh", "bi", "bj", "bl", "bm", "bn", "bo", "sa", "sb", "bq", "br", "sc", "sd", "bs", "bt", "sg", "bv", "bw", "sh", "by", "sj", "bz", "sl", "sn", "so", "ca", "sr", "ss", "cc", "cd", "st", "sv", "cf", "cg", "sx", "ch", "sy", "ci", "sz", "ck", "cl", "cm", "cn", "co", "cr", "tc", "td", "cu", "tf", "tg", "cv", "cw", "th", "cx", "tj", "tk", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "dj", "tz", "dm", "do", "ua", "ug", "dz", "um", "ec", "us", "eg", "eh", "uy", "uz", "va", "vc", "er", "et", "ve", "vg", "vi", "vn", "vu", "fj", "fk", "fm", "fo", "wf", "ga", "gb", "ws", "gd", "ge", "gg", "gh", "gi", "gl", "gm", "gn", "gq", "gs", "gt", "gu", "gw", "gy", "xk", "hk", "hm", "hn", "ht", "ye", "id", "il", "im", "in", "io", "za", "iq", "ir", "zm", "je", "zw", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kp", "kr", "kw", "ky", "kz", "la", "lb", "lc", "lk", "lr", "ls", "ly", "ma", "md", "me", "mg", "mh", "mk", "ml", "mm", "mn", "mo", "mp", "mr", "ms", "mu", "mv", "mw", "mx", "my", "mz", "na", "nc", "ne", "nf", "ng", "ni", "np", "nr", "nu", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pm", "pn"
+      ],
+      "States": {},
+      "LanguageSwitcherPlaceholder": {
+        "default": "pt"
+      },
+      "BannerPushesDown": false,
+      "Default": true,
+      "Global": true,
+      "Type": "GDPR",
+      "UseGoogleVendors": false,
+      "VariantEnabled": false,
+      "TestEndTime": null,
+      "Variants": [],
+      "TemplateName": "Apsen",
+      "Conditions": [],
+      "GCEnable": false,
+      "IsGPPEnabled": false,
+      "EnableJWTAuthForKnownUsers": false
+    }
+  ],
+  "IabData": {
+    "cookieVersion": "1",
+    "createdTime": "2024-06-20T16:55:34.827451527",
+    "updatedTime": "2024-06-20T16:55:34.827455054",
+    "cmpId": "28",
+    "cmpVersion": "1",
+    "consentScreen": "1",
+    "consentLanguage": null,
+    "vendorListVersion": 0,
+    "maxVendorId": 0,
+    "encodingType": "0",
+    "globalVendorListUrl": "https://cdn.cookielaw.org/vendorlist/iabData.json"
+  },
+  "IabV2Data": {
+    "cookieVersion": "1",
+    "createdTime": "2024-06-20T16:55:35.168805569",
+    "updatedTime": "2024-06-20T16:55:35.168809216",
+    "cmpId": "28",
+    "cmpVersion": "1",
+    "consentScreen": "1",
+    "consentLanguage": null,
+    "vendorListVersion": 0,
+    "maxVendorId": 0,
+    "encodingType": "0",
+    "globalVendorListUrl": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+  },
+  "Iab2V2Data": {
+    "cookieVersion": "1",
+    "createdTime": "2024-06-20T16:55:35.509588667",
+    "updatedTime": "2024-06-20T16:55:35.509592173",
+    "cmpId": "28",
+    "cmpVersion": "1",
+    "consentScreen": "1",
+    "consentLanguage": null,
+    "vendorListVersion": 0,
+    "maxVendorId": 0,
+    "encodingType": "0",
+    "globalVendorListUrl": "https://cdn.cookielaw.org/vendorlist/iab2V2Data.json"
+  },
+  "GoogleData": {
+    "vendorListVersion": 1,
+    "googleVendorListUrl": "https://cdn.cookielaw.org/vendorlist/googleData.json"
+  },
+  "ScriptDynamicLoadEnabled": false,
+  "TenantFeatures": {
+    "CookieV2BannerFocus": true,
+    "CookieV2RejectAll": true,
+    "CookieV2GPC": true,
+    "CookieV2GeolocationJsonApi": true,
+    "CookieV2TCF21": true,
+    "CookieV2BannerLogo": true,
+    "ConsentStoreConsentStrings": true,
+    "CookieV2AssignTemplateRule": true,
+    "MobileAuthenticatedConsents": true,
+    "CookieV2GCMDMA": true,
+    "CookieV2RemoveSettingsIcon": true,
+    "CookieV2GeneralVendors": true,
+    "CookieV2GPP": true
+  },
+  "IsSuppressBanner": false,
+  "IsSuppressPC": false,
+  "PublisherCC": "UK",
+  "Domain": "apsen.com.br",
+  "TenantGuid": "d6a2d30b-1a96-4c15-b67b-5db938c975ca",
+  "EnvId": "app-br-prod",
+  "RemoteActionsEnabled": false,
+  "GeoRuleGroupName": "Apsen",
+  "GATrackToggle": false,
+  "GATrackAssignedCategory": "",
+  "WebFormIntegrationEnabled": false,
+  "WebFormSrcUrl": "",
+  "WebFormWorkerUrl": "",
+  "GppData": {
+    "cmpId": "28"
+  },
+  "AuthenticatedConsent": false
+}
